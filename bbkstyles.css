@@ -1,0 +1,143 @@
+.clear {
+	clear: both;
+}
+body {
+	font-family: georgia;
+	/*background-color: #eeeeee;*/
+	background-color: #dddddd;
+	margin: 0px 0 0 0;
+	color: #444444;
+	padding: 0;
+	/*height: 100%;*/
+}
+a {
+	color: #000000;
+}
+/*a:hover  {
+	color: #ffffff;
+}*/
+.outterDiv {
+	/*margin: 0 170px 0 170px;*/
+	margin: 0 auto;
+	background-color: #eeeeee;
+	width: 976px;
+	/*min-height: 100%;*/
+	/*overflow-x: auto;
+	overflow-y: hidden;*/
+	
+}
+.headerDiv {
+	/*background-color: green;*/
+}
+.logoDiv {
+	/*float: left;*/
+	/*width: 50%;*/
+    margin: 0px auto;
+	text-align: center;
+}
+/*.headerContactInfoDiv {
+	float: right;
+}*/
+.mainDiv {
+	margin: 15px 15px 0px 15px;
+	/*min-height: 100%;*/
+	text-align: justify;
+	line-height: 27px;
+	/*height: 10px;*/
+	/*height: 100%;*/
+}
+.articleImage1 {
+	margin: 0 20px 0 0;
+}
+.priceTable {
+	border-spacing: 10px;
+}
+.footerDiv {
+	background: #B39299;
+	
+	height: 40px;
+	
+	color: #eeeeee;
+	font-size: 14px;
+	text-align: center;
+	/*width: 100%;*/
+	width: 976px;
+	margin: 0px auto;
+	/*display: block;*/
+	
+	display: table;
+}
+.footerText {
+	/*margin: 13px 0 0 0;*/
+	display: table-cell;
+    vertical-align: middle;
+}
+.copywriteFooterDiv {
+	background: transparent;
+	height: 25px;
+	font-size: 10px;
+	font-family: Verdana, Geneva, sans-serif;
+	text-align: center;
+	width: 976px;
+	margin: 0px auto;
+	display: table;
+}
+.copyrightFooterText {
+	display: table-cell;
+    vertical-align: middle;
+	color: #666666;
+}
+
+.bbkFooterText {
+	margin: 0 20px 0 0;
+}
+.addressFooterText {
+	margin: 0 10px 0 0;
+}
+.lastAddressFooterText {
+	margin: 0 20px 0 0;
+}
+.teleFooterText {
+	margin: 0 20px 0 0;
+}
+.emailFooterText {
+}
+.leftColDiv {
+	width: 300px;
+	/*width: 30%;*/
+	float: left;
+}
+.contactFormDiv {
+	float: left;
+	margin: 0 0 0 30px;
+	width: 60%;
+}
+.contactUsTextDiv {
+	margin: 0 0 0 0;
+	text-align: center;
+}
+.companyName {
+	font-weight: bold;
+}
+.galleryTable {
+	width: 100%;
+}
+.photoCaption {
+	font-style: italic;
+}
+.specialOfferTitle {
+	font-weight: bold;
+}
+.specialOfferRow td {
+	color: #ffffff;
+	background: #B39299;
+	/*border: 1px solid black;*/
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	padding: 10px;
+}
+.specialOfferOrigPrice {
+	font-size: 12px;
+	font-weight: normal;
+}
