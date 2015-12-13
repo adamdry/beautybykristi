@@ -28,6 +28,9 @@ function fixMenu() {
 		var amountPerLiToAlter = difference / itemCount;
 		var existingPadding = (parseInt($('#cssmenu li a').css('padding-left')) * 2);
 		var newPadding = existingPadding + amountPerLiToAlter;
+
+        // adjusted for smaller screens - the last menu item was dropping to a new line
+		newPadding -= 1;
 	
 		$('#cssmenu li a').css('padding-left', (newPadding / 2) + 'px');
 		$('#cssmenu li a').css('padding-right', (newPadding / 2) + 'px');

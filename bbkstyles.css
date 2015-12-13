@@ -3,8 +3,8 @@
 }
 body {
 	font-family: georgia;
-	/*background-color: #eeeeee;*/
-	background-color: #dddddd;
+	/*background-color: #dddddd;*/
+    background-color: #000000;
 	margin: 0px 0 0 0;
 	color: #444444;
 	padding: 0;
@@ -34,6 +34,7 @@ a {
 	/*width: 50%;*/
     margin: 0px auto;
 	text-align: center;
+	background-image: url("images/glitter_background.png");
 }
 /*.headerContactInfoDiv {
 	float: right;
@@ -53,7 +54,8 @@ a {
 	border-spacing: 10px;
 }
 .footerDiv {
-	background: #B39299;
+	/*background: #B39299;*/
+    background: #000000;
 	
 	height: 40px;
 	
@@ -100,7 +102,8 @@ a {
 .teleFooterText {
 	margin: 0 20px 0 0;
 }
-.emailFooterText {
+.emailFooterText a {
+    color: #ffffff;
 }
 .leftColDiv {
 	width: 300px;
@@ -120,7 +123,7 @@ a {
 	font-weight: bold;
 }
 .galleryTable {
-	width: 100%;
+	/*width: 100%;*/
 }
 .photoCaption {
 	font-style: italic;
@@ -130,7 +133,8 @@ a {
 }
 .specialOfferRow td {
 	color: #ffffff;
-	background: #B39299;
+	/*background: #B39299;*/
+    background: #000000;
 	/*border: 1px solid black;*/
 	-webkit-border-radius: 8px;
 	-moz-border-radius: 8px;
